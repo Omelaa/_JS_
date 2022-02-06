@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrap {
+    max-width: 1230px;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: center;
+    border: 2px solid orange;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 0, 0.38);
+    color: #7d7a0b;
+    display: flex;
+    grid-gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.post-card {
+    width: 19%;
+    border: 2px solid orange;
+    border-radius: 50px;
+    padding: 10px;
+}

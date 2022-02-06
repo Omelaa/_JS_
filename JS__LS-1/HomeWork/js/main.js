@@ -121,11 +121,11 @@
 // - За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками.
 //     Вивести "Вітаю *Імя* *По батькові*. Тобі *вік* років".
 //
-// let firstName = prompt ('Ваше имя?',)
-// let lastName = prompt ('Ваше отчество?',)
-// let age = prompt ('Сколько вам лет?',)
-//
-// alert(`Вітаю ${firstName} ${lastName}. Тобі ${age} років!)`)
+let firstName = prompt ('Ваше имя?',)
+let lastName = prompt ('Ваше отчество?',)
+let age = prompt ('Сколько вам лет?',)
+
+alert(`Вітаю ${firstName} ${lastName}. Тобі ${age} років!)`)
 
 
 
