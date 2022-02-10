@@ -25,24 +25,24 @@
 // результат
 //     [3,5,7,9]
 
-// let twoArr = [1, 2, 3, 4];
-// let oneArr = [2, 3, 4, 5];
-// let newArr = [];
-//
-// function sumArr(firstArr, secondArr, arr) {
-//     let sum;
-//     for (const firstArrKey in firstArr) {
-//         for (const secondArrKey in secondArr) {
-//             if (firstArrKey === secondArrKey) {
-//                 sum = firstArr[firstArrKey] + secondArr[secondArrKey];
-//                 arr.push(sum);
-//             }
-//         }
-//     }
-//     return arr;
-// }
-//
-// console.log(sumArr(oneArr, twoArr, newArr));
+let twoArr = [1, 2, 3, 4];
+let oneArr = [2, 3, 4, 5];
+let newArr = [];
+
+function sumArr(firstArr, secondArr, arr) {
+    let sum;
+    for (const firstArrKey in firstArr) {
+        for (const secondArrKey in secondArr) {
+            if (firstArrKey === secondArrKey) {
+                sum = firstArr[firstArrKey] + secondArr[secondArrKey];
+                arr.push(sum);
+            }
+        }
+    }
+    return arr;
+}
+
+console.log(sumArr(oneArr, twoArr, newArr));
 
 // - Створити функцію яка приймає масив будь яких объектів, та повертає масив ключів всіх обєктів
 // EXAMPLE:
@@ -72,21 +72,21 @@
 // EXAMPLE:
 //     [{name: 'Dima', age: 13}, {model: 'Camry'}]  ===> [ Dima, 13, Camry ]
 
-// let objKey = [
-//     {name: 'Dima', age: 13}, {model: 'Camry'}
-// ];
-//
-// let mass = [];
-//
-// function keys(arr, newArr) {
-//     newArr = [];
-//     for (let item of arr) {
-//         for (let key in item) {
-//             newArr.push(item[key]);
-//         }
-//     }
-//     return newArr;
-// }
-//
-//
-// console.log(keys(objKey, mass));
+let objKey = [
+    {name: 'Dima', age: 13}, {model: 'Camry'}
+];
+
+let mass = [];
+
+function keys(arr, newArr) {
+    newArr = [];
+    for (let item of arr) {
+        for (let key in item) {
+            newArr.push(item[key]);
+        }
+    }
+    return newArr;
+}
+
+
+console.log(keys(objKey, mass));
