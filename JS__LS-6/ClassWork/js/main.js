@@ -28,13 +28,13 @@
 // let arr = [];
 //
 // let randomNums = (arr, number) => {
-//     for (let i = 0; i <= number; i++) {
-//         arr[i] = Math.floor(Math.random() * i);
+//     for (let i = 0; i <= 20; i++) {
+//         arr[i] = Math.floor(Math.random() * number);
 //     }
 //     return arr;
 // }
 //
-// randomNums(arr, 100);
+// console.log(randomNums(arr, 100));
 
 // - створити (або згенерувати, за допомоги попередньої функції) масив рандомних цілих числових значень. Відсортувати його за допомоги sort
 

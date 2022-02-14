@@ -1,3 +1,4 @@
+
 // - Знайти та вивести довижину настипних стрінгових значень
 // 'hello world', 'lorem ipsum', 'javascript is cool'
 
@@ -56,7 +57,7 @@
 //
 // - Напишіть функцію insert_dash(str), яка приймає рядок str як аргумент і вставляє тире (-) між словами. При цьому всі символи рядка необхідно перевести у верхній регістр.
 //     let str = "HTML JavaScript PHP";
-// document.writeln(insert_dash(str)); // 'HTML-JAVASCRIPT-PHP'
+// document.writeln(insert_dash(str)); // 'HTML-JAVASCRIPT-PHP';
 
 // let str = "HTML JavaScript PHP";
 //
@@ -75,15 +76,16 @@
 // - Напишіть функцію capitalize(str), яка повертає рядок, у якому кожне слово починається з великої літери.
 
 // let capitalize = (str) => {
-//     let item = str.split(' ');
 //     let bigNum = [];
+//     let item = str.split(' ');
 //     for (let num of item) {
-//         if (num !== num.toLowerCase()) {
-//             bigNum += num + ' ';
+//         let newNum = num.toLowerCase();
+//         if (newNum === newNum.toLowerCase()) {
+//            bigNum.push(newNum.charAt(0).toUpperCase() + newNum.slice(1));
 //         }
 //     }
 //     return bigNum;
-// }
+// };
 //
 // console.log(capitalize('Привет Мир! Я Ваня и я один дома!'));
 
