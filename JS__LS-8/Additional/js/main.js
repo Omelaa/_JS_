@@ -8,9 +8,9 @@ function recursion(value) {
         recursion(item);
     }
     if (value.className !== '') {
-        arr.push(value.className);
-        console.log(arr);
+        value.className.split(' ').map(item => arr.push(item));
     }
+    return arr;
 }
 
-recursion(document.body);
+console.log(recursion(document.body));
