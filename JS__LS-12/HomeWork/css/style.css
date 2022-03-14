@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+
+.posts, .comments {
+    margin: 0 auto;
+    max-width: 1240px;
+    width: 100%;
+    padding: 0 15px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+}
+
+.comments{
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.posts__post, .comments__comment {
+    padding: 15px;
+    border: 1px solid #000000;
+}
+

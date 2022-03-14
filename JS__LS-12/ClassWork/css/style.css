@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    font-weight: normal;
+    background-color: rgba(78, 213, 143, 0.65);
+}
+
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 25px 15px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #000000;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+}
+
+.wrapper__item {
+    padding: 15px 15px 50px 15px;
+    border: 1px solid #000000;
+    position: relative;
+}
+
+.button {
+    position: absolute;
+    bottom: 15px;
+    cursor: pointer;
+    background: inherit;
+    border: 2px solid #000000;
+    transition: opacity 0.5s;
+}
+
+.button:hover{
+    opacity: 0.5;
+}
+
+
